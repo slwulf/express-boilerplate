@@ -35,7 +35,7 @@ fs.readdirSync(__dirname + '/models')
 });
 
 // db
-db.connect('mongodb://localhost/nab-app')
+db.connect('mongodb://localhost/myapp');
 
 // server
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
