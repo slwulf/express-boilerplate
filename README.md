@@ -6,7 +6,7 @@ The base express-generator command was `express --hbs --css sass --git`. Here's 
 - Handlebars templating (generator)
 - Sass compiling (generator)
 - Stock gitignore (generator)
-- Added [express-handelbars](https://www.npmjs.com/package/express-handlebars) for better templating
+- Added [express-handlebars](https://www.npmjs.com/package/express-handlebars) for better templating
 - Added Eric Elliot's [express-error-handler](https://www.npmjs.com/package/express-error-handler)
 - Added Mongoose for MongoDB support and a starter model
 - Added debug start to npm scripts (`npm run debug`)
@@ -14,7 +14,7 @@ The base express-generator command was `express --hbs --css sass --git`. Here's 
 
 ### Usage
 
-If you just fell in love, you can use this for any project you could ever dream of. Just fork the repo, pull down a copy, and run `npm install` to get all the depedencies.
+If you just fell in love, you can use this for any project you could ever dream of. Just fork the repo, pull down a copy, and run `npm install` to get all the dependencies.
 
 ### Contributing
 
