@@ -6,9 +6,11 @@ The base express-generator command was `express --hbs --css sass --git`. Here's 
 - Handlebars templating (generator)
 - Sass compiling (generator)
 - Stock gitignore (generator)
+- Added [express-handelbars](https://www.npmjs.com/package/express-handlebars) for better templating
 - Added Eric Elliot's [express-error-handler](https://www.npmjs.com/package/express-error-handler)
 - Added Mongoose for MongoDB support and a starter model
 - Added debug start to npm scripts (`npm run debug`)
+- Customized routes setup
 
 ### Usage
 

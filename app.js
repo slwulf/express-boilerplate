@@ -24,9 +24,15 @@ var users = require('./routes/users');
 // app
 var app = express();
 
+// routes
+var routes = require('./routes/index');
+app.use('/', routes);
+
 // views
+var hbs = require('./config/handlebars');
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
+app.engine('.hbs', hbs.engine);
+app.set('view engine', '.hbs');
 
 // models
 fs.readdirSync(__dirname + '/models')
@@ -50,12 +56,5 @@ app.use(require('node-sass-middleware')({
   sourceMap: true
 }));
 app.use(express.static(path.join(__dirname, 'public')));
-
-/**
- * routes
- */
-
-app.use('/', routes);
-app.use('/users', users);
 
 module.exports = app;
